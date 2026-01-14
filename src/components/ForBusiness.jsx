@@ -6,6 +6,10 @@ import card2 from "/src/assets/images/Content-Card-Microsoft-365-Copilot-COMMR-0
 import card3 from  "/src/assets/images/Content-Card-Windows-11-Business.avif"
 import card4 from "/src/assets/images/Content-Card-Azure-AI-Bloom.avif"
 import MarqueBox from './MarqueBox'
+
+import facebook from "/src/assets/images/facebook.avif"
+import x from "/src/assets/images/x_logo.avif"
+import linkedIn from "/src/assets/images/linked_in.png"
 const ForBusiness = () => {
 
     const items = [
@@ -48,9 +52,9 @@ const ForBusiness = () => {
     <div className='h-40 w-full  flex justify-center items-center flex-col'> 
         <p className='text-sm font-semibold'>Follow Microsoft</p>
         <div className='h-20 w-60 flex justify-evenly items-center'>
-            <img className=' cursor-pointer p-1 bg-white h-8 w-8 rounded-[7px] shadow-[0px_0px_6px_rgba(17,17,26,0.3)] hover:scale-106' src="/src/assets/images/facebook.avif" alt="" />
-            <img className=' cursor-pointer p-1 bg-white h-8 w-8 rounded-[7px] shadow-[0px_0px_6px_rgba(17,17,26,0.3)] hover:scale-106' src="/src/assets/images/x_logo.avif" alt="" />
-            <img className=' cursor-pointer p-1 bg-white h-8 w-8 rounded-[7px] shadow-[0px_0px_6px_rgba(17,17,26,0.3)] hover:scale-106' src="/src/assets/images/linked_in.png" alt="" />
+            <img className=' cursor-pointer p-1 bg-white h-8 w-8 rounded-[7px] shadow-[0px_0px_6px_rgba(17,17,26,0.3)] hover:scale-106' src={facebook} alt="" />
+            <img className=' cursor-pointer p-1 bg-white h-8 w-8 rounded-[7px] shadow-[0px_0px_6px_rgba(17,17,26,0.3)] hover:scale-106' src={x} alt="" />
+            <img className=' cursor-pointer p-1 bg-white h-8 w-8 rounded-[7px] shadow-[0px_0px_6px_rgba(17,17,26,0.3)] hover:scale-106' src={linkedIn} alt="" />
 
         </div>
 
