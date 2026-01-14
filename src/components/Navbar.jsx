@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { X } from 'lucide'
+import Logo from '/src/assets/images/microsoftLogo.png'
 import NavbarBtn from './NavbarBtn'
 const Navbar = () => {
     const [hidden, setHidden] = useState("")
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className='  h-14 w-full bg-white flex justify-center'>
             <div className=' h-14 w-[88%] flex justify-between items-center'>
                 <div className=' w-3/5 flex gap-10'>
-                    <img className='h-6  ' src="/src/assets/images/microsoftLogo.png" alt="LOGO" />
+                    <img className='h-6  ' src={Logo} alt="LOGO" />
                     <div className='text-xs tracking-wide flex  gap-5 items-center color-[#262670]'>
                         {navbarBtn.map((e, idx) => {
                             return <NavbarBtn key={idx} e={e} />
