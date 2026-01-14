@@ -5,6 +5,7 @@ import card1 from "/src/assets/images/Content-Card-Surface-Laptop-5G-Platinum-Co
 import card2 from "/src/assets/images/Content-Card-Microsoft-365-Copilot-COMMR-0625.avif"
 import card3 from  "/src/assets/images/Content-Card-Windows-11-Business.avif"
 import card4 from "/src/assets/images/Content-Card-Azure-AI-Bloom.avif"
+import MarqueBox from './MarqueBox'
 const ForBusiness = () => {
 
     const items = [
@@ -43,6 +44,7 @@ const ForBusiness = () => {
         <ShopItemsBox  items={items}/>
       
     </div>
+    <MarqueBox />
     <div className='h-40 w-full  flex justify-center items-center flex-col'> 
         <p className='text-sm font-semibold'>Follow Microsoft</p>
         <div className='h-20 w-60 flex justify-evenly items-center'>

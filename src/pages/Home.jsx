@@ -18,7 +18,7 @@ const Home = () => {
       <ShopItems />
       <JoinNow />
       <ForBusiness />
-      <MarqueBox />
+      
       <Footer />
 
     </div>
