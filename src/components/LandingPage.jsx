@@ -13,7 +13,7 @@ import AppIcon2 from "/src/assets/images/Untitled design (3).png"
 const LandingPage = () => {
     const slides = [
         {
-            img: {AppIcon1},
+            img: AppIcon1,
             tag: "Microsoft exclusive",
             title: "Start Microsoft 365 Premium",
             subtitle: "today for 50% off",
@@ -25,7 +25,7 @@ const LandingPage = () => {
 
         },
         {
-            img: {AppIcon2},
+            img: AppIcon2,
             tag: "Windows 11",
             tag_col: "bg-blue-400",
             title: "Meet Copilot AI",

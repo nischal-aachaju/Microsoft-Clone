@@ -8,30 +8,30 @@ import Apps from "/src/assets/images/Quick-Links-MSCOM-Apps.svg"
 const ShopGames = () => {
     const img = [
         {
-            img: {Table},
+            img: Table,
             name: "Shop Surface devices"
         },
         {
-            img:{Xbox},
+            img:Xbox,
             name: "Shop Xbox games and consoles"
         },
         ,
         {
-            img: {Accessories},
+            img: Accessories,
             name: "Shop for accessories"
 
         },
         {
-            img: {Building},
+            img: Building,
             name: "Shop for your Business"
 
         },
         {
-            img: {Laptop} ,
+            img: Laptop ,
             name: "Find your next PC"
         },
         {
-            img: {Apps},
+            img: Apps,
             name: "Choos your Microsoft 365"
 
         },
