@@ -1,5 +1,5 @@
 import React from 'react'
-
+import image from "/src/assets/images/PhotoshopExtension_Image.png" 
 const JoinNow = () => {
   return (
     <div className=' flex justify-center items-center w-full  h-150'>
@@ -11,7 +11,7 @@ const JoinNow = () => {
 
         </div>
         <div className='h-full w-1/2 px-2 py-2  '>
-        <img className=' rounded-[18px] h-full w-full' src="/src/assets/images/PhotoshopExtension_Image.png" alt="" />
+        <img className=' rounded-[18px] h-full w-full' src={image} alt="" />
 
         </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Copyright} from "lucide-react"
-
+import earth from "/src/assets/images/earth.png"
 const Footer = () => {
     return (
         <div className='h-100 w-full bg-[#eeeeee] '>
@@ -91,8 +91,8 @@ const Footer = () => {
             </div>
             <div className='h-12 flex text-gray-600 text-[11px]'>
                 <div className='h-full w-2/5  flex  justify-evenly mt-3 '>
-                    <div className=' flex  gap-2  '>
-                        <img className='h-5' src="/src/assets/images/earth.png" alt="" />
+                    <div className=' flex  gap-2 '>
+                        <img className='h-5' src= {earth} alt="" />
                         <h6 className='h-fit hover:border-b '>English(United state)</h6>
                     </div>
                     <div className=' flex gap-2'>

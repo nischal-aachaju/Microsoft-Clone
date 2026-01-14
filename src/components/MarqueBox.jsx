@@ -8,13 +8,13 @@ import "swiper/css/pagination";
 
 import JoinNow1 from "./JoinNow1";
 
-
-
+import card1 from "/src/assets/images/Card-Horizontal-AI-Project-Sparrow.avif"
+import card2 from  "/src/assets/images/Content-Card-AI-Hour-Of-AI-The-First-Night-1.avif"
 
 const MarqueBox = () => {
     const slides = [
         {
-            img: "/src/assets/images/Card-Horizontal-AI-Project-Sparrow.avif",
+            img: card1 ,
             title: "Unlock AI learning with Hour of AI",
             desc: "Hour of AI: The First Night introduces learners of all ages to coding with a fun, immersive tutorial.",
             button: "Learn more",
@@ -22,7 +22,7 @@ const MarqueBox = () => {
 
         },
         {
-            img: "/src/assets/images/Content-Card-AI-Hour-Of-AI-The-First-Night-1.avif",
+            img:card2 ,
             title: "Protecting biodiversity with AIMeet Copilot AI",
             desc: "Microsoft’s AI for Good Lab created Project SPARROW to observe wildlife in remote locations.",
             button: "Learn more",
