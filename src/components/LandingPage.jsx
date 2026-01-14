@@ -6,13 +6,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import LandingPageComponent from "./LandingPageComponent";
-
+import AppIcon1 from "/src/assets/images/Untitled design (1).png"
+import AppIcon2 from "/src/assets/images/Untitled design (3).png"
 
 
 const LandingPage = () => {
     const slides = [
         {
-            img: "/src/assets/images/Untitled design (1).png",
+            img: {AppIcon1},
             tag: "Microsoft exclusive",
             title: "Start Microsoft 365 Premium",
             subtitle: "today for 50% off",
@@ -24,7 +25,7 @@ const LandingPage = () => {
 
         },
         {
-            img: "/src/assets/images/Untitled design (3).png",
+            img: {AppIcon2},
             tag: "Windows 11",
             tag_col: "bg-blue-400",
             title: "Meet Copilot AI",

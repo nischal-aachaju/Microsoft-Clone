@@ -1,32 +1,37 @@
 import React from 'react'
-
+import Table from "/src/assets/images/Quick-Links-Store-Tablet.svg"
+import Xbox from "/src/assets/images/Quick-Links-Store-Xbox-Controller.svg"
+import Accessories from "/src/assets/images/Quick-Links-Store-Accessories.svg"
+import Building from "/src/assets/images/Quick-Links-MSCOM-Building.svg"
+import Laptop from "/src/assets/images/Quick-Links-Store-Laptop.svg"
+import Apps from "/src/assets/images/Quick-Links-MSCOM-Apps.svg"
 const ShopGames = () => {
     const img = [
         {
-            img: "/src/assets/images/Quick-Links-Store-Tablet.svg",
+            img: {Table},
             name: "Shop Surface devices"
         },
         {
-            img: "/src/assets/images/Quick-Links-Store-Xbox-Controller.svg",
+            img:{Xbox},
             name: "Shop Xbox games and consoles"
         },
         ,
         {
-            img: "/src/assets/images/Quick-Links-Store-Accessories.svg",
+            img: {Accessories},
             name: "Shop for accessories"
 
         },
         {
-            img: "/src/assets/images/Quick-Links-MSCOM-Building.svg",
+            img: {Building},
             name: "Shop for your Business"
 
         },
         {
-            img: "/src/assets/images/Quick-Links-Store-Laptop.svg",
+            img: {Laptop} ,
             name: "Find your next PC"
         },
         {
-            img: "/src/assets/images/Quick-Links-MSCOM-Apps.svg",
+            img: {Apps},
             name: "Choos your Microsoft 365"
 
         },
