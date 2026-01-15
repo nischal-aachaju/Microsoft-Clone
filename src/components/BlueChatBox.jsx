@@ -1,6 +1,6 @@
 import React from 'react'
 import Blue_box_tag from './Blue_box_tag'
-
+import arrow from "/src/assets/images/arrow_blue_box.png"
 const BlueChatBox = () => {
     const tags = [
         "Which PC is right for me?", 
@@ -13,7 +13,7 @@ const BlueChatBox = () => {
                 <h5 className='text-[32px] text-white font-semibold'> Hi there. How can we help?</h5>
                 <div className=' relative h-13.5 w-200  rounded border-white border  bg-linear-to-r from-[#0078D4] to-[#6CD0C1]'>
                     <input placeholder=' 𝘈𝘴𝘬 𝘮𝘦 𝘢 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯' className=' h-12 w-full px-4 text rounded-t  focus:outline-none active:border-0 bg-white text-gray-900 ' type="text" />
-                    <img className='absolute h-5 top-4 right-4' src="/src/assets/images/arrow_blue_box.png" alt="" />
+                    <img className='absolute h-5 top-4 right-4' src={arrow} alt="" />
                     
                 </div>
                 <div className='  flex gap-3 justify-center'>
