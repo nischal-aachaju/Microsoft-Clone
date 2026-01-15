@@ -11,7 +11,7 @@ const ShopItemsBox = ({items}) => {
                         <div className='px-6 '>
                             <h3 className='font-semibold text-xl py-4 '>{e.title}</h3>
                             <p >{e.desc}</p>
-                            <button className='absolute bottom-6 left-6 rounded-[9px] bg-[#1c6eea] px-4 py-2  text-amber-50'>{e.btn}</button>
+                            <button className='cursor-pointer absolute bottom-6 left-6 rounded-[9px] bg-[#1c6eea] px-4 py-2  text-amber-50'>{e.btn}</button>
                         </div>
                     </div>
                 )

@@ -7,7 +7,7 @@ const JoinNow = () => {
         <div className='relative h-full w-1/2  flex items-start  justify-center gap-4 flex-col px-8'>
         <h3 className='font-bold text-3xl'>Xbox Game Pass Ultimate</h3>
         <p >Play new titles on day one. Enjoy hundreds of high-quality games with friends on console, PC, or cloud.</p>
-        <button className='absolute bottom-7 left-7 rounded-[9px] bg-[#1c6eea] px-4 py-2  text-amber-50'>Join now</button>
+        <button className='cursor-pointer absolute bottom-7 left-7 rounded-[9px] bg-[#1c6eea] px-4 py-2  text-amber-50'>Join now</button>
 
         </div>
         <div className='h-full w-1/2 px-2 py-2  '>

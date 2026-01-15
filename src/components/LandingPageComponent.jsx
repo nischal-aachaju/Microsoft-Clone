@@ -16,7 +16,7 @@ const LandingPageComponent = ({ data }) => {
 
                 <p>{data.desc}</p>
 
-                <button className="px-3 py-2 h-12 w-fit text-white font-semibold bg-blue-500 rounded-lg">
+                <button className=" cursor-pointer px-3 py-2 h-12 w-fit text-white font-semibold bg-blue-500 rounded-lg">
                     {data.button}
                 </button>
             </div>

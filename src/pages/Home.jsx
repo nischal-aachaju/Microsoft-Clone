@@ -18,7 +18,6 @@ const Home = () => {
       <ShopItems />
       <JoinNow />
       <ForBusiness />
-      
       <Footer />
 
     </div>

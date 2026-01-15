@@ -7,7 +7,7 @@ const JoinNow = ({title,desc,button,img}) => {
         <div className='relative h-full w-1/2  flex items-start  justify-center gap-4 flex-col px-8'>
         <h3 className='font-bold text-3xl'>{title}</h3>
         <p >{desc}</p>
-        <button className='absolute bottom-7 left-7 rounded-[9px] bg-[#1c6eea] px-4 py-2  text-amber-50'>{button}</button>
+        <button className='cursor-pointer absolute bottom-7 left-7 rounded-[9px] bg-[#1c6eea] px-4 py-2  text-amber-50'>{button}</button>
 
         </div>
         <div className='h-full w-1/2 px-2 py-2  '>
