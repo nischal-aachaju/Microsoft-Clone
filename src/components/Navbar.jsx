@@ -26,12 +26,12 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div className={` ${hidden} bg-[#0072C6]  text-xm tracking-wide absolute h-12 w-full top-14 text-white flex justify-center items-center gap-2`}><h4>Protect your device against accidents for up to 4 years with Microsoft Complete.</h4><button className='border-2 rounded-md px-3 py-1 font-medium'>Learn more  </button> 
+            <div className={` ${hidden} z-10 bg-[#0072C6]  text-xm tracking-wide absolute h-12 w-full top-14 text-white flex justify-center items-center gap-2`}><h4>Protect your device against accidents for up to 4 years with Microsoft Complete.</h4><button className='border-2 rounded-md px-3 py-1 font-medium'>Learn more  </button> 
             <div onClick={() => 
                 {
                     setHidden("hidden")
                 }
-            } className=' relative left-92 '><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg></div></div>
+            } className=' relative left-92 hover:bg-red-400 transition-all duration-300 '><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg></div></div>
 
         </div>
     )
